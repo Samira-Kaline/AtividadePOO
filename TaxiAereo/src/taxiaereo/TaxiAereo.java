@@ -12,8 +12,9 @@ public class TaxiAereo {
         
         System.out.println("Bem vindo(a)!");
         System.out.println("Crie dois helepteros:");
-        System.out.println("Obs: Os Helecopteros iniciam desligados e a altura "
-                + "sendo 0 \n");
+        System.out.println("""
+                           Obs: Os Helecopteros iniciam desligados e a altura sendo 0 
+                           """);
         
         /* Helecotero 1*/
         
@@ -77,11 +78,11 @@ public class TaxiAereo {
         
         /* Decolandos os Helecopteros */
         
-        System.out.println("Informe uma altura para decolar o Helecotero 1");
+        System.out.println("Informe uma altura para decolar o Helecoptero 1");
         int alt1 = s.nextInt();
         h1.decolarHelecoptero(alt1);
         
-        System.out.println("Informe uma altura para decolar o Helecotero 2");
+        System.out.println("Informe uma altura para decolar o Helecoptero 2");
         int alt2 = s.nextInt();
         h2.decolarHelecoptero(alt2);
         
